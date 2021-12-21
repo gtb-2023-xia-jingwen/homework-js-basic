@@ -111,15 +111,13 @@ describe('for object', () => {
     }
     const rabbit = { type: 'white', speak };
 
-    speak.call(rabbit, 'Hello');
-
     // 你可能需要参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/call
     // <--start
     // Please write down the correct value. You should write the final result directly.
     const expected = undefined;
     // --end->
 
-    expect(rabbit.speak('Hello')).toEqual(expected);
+    expect(speak.call(rabbit, 'Hello')).toEqual(expected);
   });
 
   it('should capture this in the scope around it for arrow function', () => {
