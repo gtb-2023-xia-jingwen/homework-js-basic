@@ -1,6 +1,6 @@
+// 完成下列内容可能需要参考：
+// https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
 describe('for array', () => {
-  // 完成下列内容可能需要参考：
-  // https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
   it('should get element of an array', () => {
     const array = [1, 2, 3, 4, 5];
 

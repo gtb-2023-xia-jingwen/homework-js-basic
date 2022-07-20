@@ -1,5 +1,5 @@
+// 完成下列内容可能需要参考 https://zh.javascript.info/string
 describe('for strings', () => {
-  // 完成下列内容可能需要参考 https://zh.javascript.info/string
   it('should get character at certain position', () => {
     const string = 'Hello';
     const characterWithinRange = string[1];
